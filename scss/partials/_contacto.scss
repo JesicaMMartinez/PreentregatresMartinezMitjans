@@ -1,0 +1,36 @@
+
+//estilo de formulario 
+form{
+    background-color:#ece5ea ;
+    margin-top: 20px;
+   
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+    
+
+}
+input,textarea{
+    display: block;
+    width: 30%;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: small;
+    margin-bottom: 10px;
+   
+}
+  .form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  div {
+        display: flex;
+        flex-direction: row;
+        
+    }
+  }

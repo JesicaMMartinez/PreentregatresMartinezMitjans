@@ -1,0 +1,30 @@
+
+
+//aplicamos estilo al header 
+@mixin anclas{
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: #ffa9e9;
+  
+    > nav {
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  
+    nav a {
+      @include anclas;
+      font-family: 'Montserrat', sans-serif;
+      font-size: x-large;
+    }
+  
+    > nav > a:hover {
+      color: whitesmoke;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
